@@ -9,7 +9,7 @@ import { Exp } from "../../templates/Exp";
 import { Livros } from "../../templates/Livros";
 import { Series } from "../../templates/Series";
 import { Musicas } from "../../templates/Musicas";
-import { Projetos } from "../../templates/Projetos";
+import { Jogos } from "../../templates/Jogos";
 
 export const Home = () => {
   return (
@@ -32,7 +32,7 @@ export const Home = () => {
             <Musicas />
           </div>
           <div>
-            <Projetos />
+            <Jogos />
           </div>
         </Flicking>
       </Styled.Carousel>

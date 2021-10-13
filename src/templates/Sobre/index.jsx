@@ -1,6 +1,7 @@
 import { Text } from "../../components/Text";
 import Card, { CardSubtitle, CardTitle } from "../../components/Card";
 import { Divider } from "../../components/Divider";
+import { Link } from "../../components/Link";
 
 export const Sobre = () => {
   return (
@@ -15,7 +16,6 @@ export const Sobre = () => {
         programação, sou apaixonado por livros, séries, músicas, filmes e jogos.
       </Text>
       <Divider />
-      <Text>...</Text>
     </Card>
   );
 };

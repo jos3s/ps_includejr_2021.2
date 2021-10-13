@@ -1,4 +1,5 @@
 import { Item, ItemText, List } from "../../components/List";
+import { Link } from "../../components/Link";
 import Card, { CardSubtitle, CardTitle } from "../../components/Card";
 
 export const Musicas = () => {
@@ -55,7 +56,12 @@ export const Musicas = () => {
         </Item>
         <Item>
           <ItemText>
-            Competição de ego <p>O Grilo</p>
+            <Link
+              url="https://music.youtube.com/playlist?list=PLEp0v01bYCHF5OalqtEYaDziQ1-C2m3BH&feature=share"
+              newTab
+            >
+              Minha Playlist
+            </Link>
           </ItemText>
         </Item>
       </List>
