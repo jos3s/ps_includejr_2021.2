@@ -1,7 +1,6 @@
 import { Text } from "../../components/Text";
 import Card, { CardSubtitle, CardTitle } from "../../components/Card";
 import { Divider } from "../../components/Divider";
-import { Link } from "../../components/Link";
 
 export const Sobre = () => {
   return (
